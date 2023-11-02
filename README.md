@@ -84,17 +84,15 @@ NIST SP 800-61r2 guidelines for incident handling were followed, which involved 
 - Alert ownership was assigned with "High" severity and "Active" status.
 - Affected systems and users were identified.
 - A full system scan with updated antivirus software was performed.
-- Alert authenticity was verified as a "True Positive," and relevant personnel were notified.
 
 ### Containment, Eradication & Recovery
 
 - Infected systems were quarantined, and, if necessary, shut down.
-- Infected systems were remediated by restoring to a known clean state or by employing up-to-date antivirus solutions.
+- Infected systems were remediated by restoring to a known clean state and by employing up-to-date antivirus solutions.
 
 ### Post-Incident Activity
 
 - The incident was analyzed, root causes were determined, and response effectiveness was assessed.
-- A report was disseminated to stakeholders.
 - Corrective actions were implemented to address root causes.
 - A lessons-learned review of the incident was conducted.
 
