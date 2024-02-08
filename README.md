@@ -82,7 +82,7 @@ NIST SP 800-61r2 guidelines for incident handling were followed, which involved 
 
 - Malware compromising system integrity was detected.
 - Alert ownership was assigned with "High" severity and "Active" status.
-- Affected systems and users were identified.
+- Affected systems were identified.
 - A full system scan with updated antivirus software was performed.
 
 ### Containment, Eradication & Recovery
@@ -98,4 +98,4 @@ NIST SP 800-61r2 guidelines for incident handling were followed, which involved 
 
 ## Conclusion
 
-This project established a mini honeynet on Microsoft Azure, integrated log sources into a Log Analytics workspace, and leveraged Microsoft Sentinel for alerting and incident handling. The significant reduction in security events and incidents after implementing security controls underscores their effectiveness in safeguarding the environment. It's important to note that in a heavily utilized environment, more security events and alerts may be generated post-security enhancements.
+This project established a honeynet on Microsoft Azure, integrated log sources into a Log Analytics workspace, and leveraged Microsoft Sentinel for alerting and incident handling. The significant reduction in security events and incidents after implementing security controls underscores their effectiveness in safeguarding the environment. It's important to note that in a heavily utilized environment, more security events and alerts may be generated post-security enhancements.
